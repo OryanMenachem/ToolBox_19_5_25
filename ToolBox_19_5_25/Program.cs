@@ -12,14 +12,14 @@ namespace ToolBox_19_5_25
         {
             List<Tool> listTools = new List<Tool>();
             
-            Screwdriver screwdriver = new Screwdriver("screwdriver", 1.2f);
-            Wrench wrench = new Wrench("wrench", 0.4f);
-            Drill drill = new Drill("drill", 1.4f); 
-            Hammer hammer = new Hammer("hammer", 0.4f);
-            Saw saw = new Saw("saw", 0.5f);
-            PipeCutter pipeCutter = new PipeCutter("pipeCutter", 1.1f);
-            NailGun nailGun = new NailGun("nailGun", 0.6f);
-            WireStripper wireStripper = new WireStripper("wireStripper", 0.6f);
+            Screwdriver screwdriver = new Screwdriver("screwdriver", 1.2f,"");
+            Wrench wrench = new Wrench("wrench", 0.4f,"");
+            Drill drill = new Drill("drill", 1.4f, "drilling"); 
+            Hammer hammer = new Hammer("hammer", 0.4f,"");
+            Saw saw = new Saw("saw", 0.5f, "");
+            PipeCutter pipeCutter = new PipeCutter("pipeCutter", 1.1f, "");
+            NailGun nailGun = new NailGun("nailGun", 0.6f, "");
+            WireStripper wireStripper = new WireStripper("wireStripper", 0.6f, "");
 
 
 
